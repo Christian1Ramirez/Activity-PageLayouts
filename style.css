@@ -1,6 +1,19 @@
 span {
   display: inline-block;
 }
+
+li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+
+.promo {
+  background: blue;
+  height: 25px;
+  color: white;
+  text-align: center;
+}
 /* span {
   display: inline-block;
   background-color: lightblue;
@@ -45,3 +58,4 @@ span {
 #text span {
   background-color: white;
 } */
+
