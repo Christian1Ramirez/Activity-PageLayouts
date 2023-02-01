@@ -3,7 +3,9 @@ li {
   display: inline-block;
   margin-left: 10px;
 }
-
+body {
+  text-align: center;
+}
 
 .promo {
   background: blue;
@@ -13,45 +15,55 @@ li {
 }
 span {
   display: inline-block;
-  background-color: lightblue;
+  background-color: clear;
   padding: 5px;
-  border: 1px solid darkgray;
+  border: none;
 } 
-
+/*
 #one {
   background-color:lightblue;
   width: 150px;
   height: 200px;
-}
-
+}*/
+/*
 #two {
   background-color: cornflowerblue;
   width: 200px;
   height: 50px;
-}
+}*/
 
-#three {
+/* #three {
   background-color: rgb(187, 189, 243);
   width: 175px;
   height: 150px;
-}
+} */
 
 div,
 span {
-  margin: 1px;
+  margin: 05px;
 }
 
-span {
+/* span {
   border: 1px solid #333;
   
   padding: 10px 15px;
-}
+} */
 
 #pics span,
 #text span {
   padding: 25px 30px;
+} 
+
+.img-resize {
+  height: 100px;
+  width: 120px;
 }
 
-#text span {
+img.diversity {
+  width: 1100px;
+  height: 650px;
+} 
+
+/* #text span {
   background-color: white;
 }
